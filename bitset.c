@@ -31,7 +31,6 @@ int main(int argc, char **argv)
 	char *endptr;
 	int count;
 
-	printf ("sizeof unsigned long %ld uLL = %ld\n", sizeof(unsigned long), sizeof(unsigned long long));
 	if (argc < 2) {
 		usage(argv[0]);
 		exit (0);
